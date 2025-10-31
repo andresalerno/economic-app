@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",            // Mantém 'esnext' para compatibilidade com módulos ES
+    "module": "esnext",            // Alterado para 'esnext' para usar 'moduleResolution: bundler'
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "tests"
+  ],
+  "extends": "expo/tsconfig.base"
+}

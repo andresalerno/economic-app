@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "economicApp",
+    "slug": "economic-App",
+    "scheme": "economicapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {},
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
